@@ -281,3 +281,8 @@ align-items: center;
 .copy{
     padding-top: 5px;
 }
+
+#wrapper{
+    width:960px;
+    margin:0 auto;
+}
