@@ -10,10 +10,31 @@
 <body>
     <div id="wrapper">
     <header>
+
+
+        
+
+
         <div class="navbar" id="top">
+
+            <div class="sideenav">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#" id="a" class="a">Hello,Sign in</a>
+                <a href="#" class="b">Account & List</a>
+                <a href="#" class="c">Returns & Orders</a>
+                <a href="#" class="d">Cart<i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              
+              <!-- Use any element to open the sidenav -->
+              
+              <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+            </div>
+
             <div class="nav-logo border">
                 <div class="logo"> </div>
             </div>
+           
             <div class="nav_address border">
                 <p class="add-first">Deliver to</p>
                 <div class="add-icon">
@@ -195,5 +216,6 @@
         </div>
     </footer>
          </div>
+         <script src="script.js"></script>
 </body>
 </html>
